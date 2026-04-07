@@ -1,0 +1,16 @@
+
+# Ignore all pptx files
+*.pptx
+# Ignore all pdf files
+*.pdf
+# Ignore all json files
+*.json
+# Ignore jupyter notebook checkpoints
+#   ** ensures this applies at all directory levels and 
+#   the trailing / indicates to ignore the whole folder
+**/.ipynb_checkpoints/
+
+# Ignore all .md files
+*.md
+# Except for README.md
+!README.md
